@@ -36,7 +36,7 @@
         android:layout_marginTop="20dp"
         android:textSize="16sp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/iv_poster_movie"
+        app:layout_constraintTop_toBottomOf="@id/favorit_movie"
         tools:text="Rating : 72" />
 
     <TextView
@@ -49,5 +49,15 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_rating_movie"
         tools:text="Deskripsi Film XXXX" />
+
+    <Button
+        android:id="@+id/favorit_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="♥ FAVORIT ♥"
+        app:layout_constraintTop_toBottomOf="@id/iv_poster_movie"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
